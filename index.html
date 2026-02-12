@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PhishGuard AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔐 PhishGuard AI</h1>
+    <p class="subtitle">AI-Based Phishing Detection System</p>
+
+    <textarea id="message" placeholder="Paste Email / SMS / Message here..."></textarea>
+
+    <button onclick="analyze()">Analyze Message</button>
+
+    <div id="result" class="result hidden">
+        <h3>Detection Result</h3>
+        <p id="score"></p>
+        <p id="verdict"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
